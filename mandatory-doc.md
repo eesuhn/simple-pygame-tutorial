@@ -1,4 +1,4 @@
-# Mandatory
+## Mandatory
 [Click here for complete code](./mandatory.py)
 
 ### Table of content
@@ -32,8 +32,6 @@ if __name__ == "__main__":
 	main()
 ```
 
----
-
 ### Initialize window, etc.
 - Set the game loop
 - Set the tick rate
@@ -50,8 +48,6 @@ def main():
 		clock.tick(FPS)
 		# Event loop
 ```
-
----
 
 ### Event loop
 - Check for events
@@ -82,15 +78,11 @@ SPACE_IMAGE = pygame.image.load('assets/background.png')
 SPACE_IMAGE = pygame.transform.scale(SPACE_IMAGE, (WIDTH, HEIGHT))
 ```
 
----
-
 ### Draw background
 ```py
 def draw():
 	WIN.blit(SPACE_IMAGE, (0, 0))
 ```
-
----
 
 ### Draw player
 - Create a rectangle for the player
@@ -117,8 +109,6 @@ def spawn_enemies():
 		enemies_list.append(enemy)
 ```
 
----
-
 ### Draw enemies
 - Up until now, the enemies will not "move" because we are not updating their position
 ```py
@@ -142,8 +132,6 @@ def move_everything():
 		if enemy.x + enemy.width < 0:
 			enemies_list.remove(enemy)
 ```
-
----
 
 ### Move player
 - Move the player based on the key pressed
