@@ -8,3 +8,6 @@ A simple <b>Pygame</b> tutorial for beginners. This tutorial covers:
 
 Check out the [documented tutorial](./mandatory-doc.md) here. <br>
 <i>*currently working on score system</i>
+
+### Contributors
+- Art & Design: [Sheldon-Chong](https://github.com/Sheldon-Chong)
